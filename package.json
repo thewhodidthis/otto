@@ -1,0 +1,21 @@
+{
+  "name": "@thewhodidthis/otto",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Helps create elementary cellular automata",
+  "homepage": "https://github.com/thewhodidthis/otto#readme",
+  "bugs": "https://github.com/thewhodidthis/otto/issues",
+  "repository": "github:thewhodidthis/otto",
+  "license": "ISC",
+  "author": "Thepersonwhodidthis <thewhodidthis@fastmail.com> (http://thewhodidthis.com/)",
+  "engines": {
+    "node": ">=14.17.0",
+    "npm": ">=6.14.13"
+  },
+  "main": "./main.js",
+  "type": "module",
+  "exports": {
+    ".": "./main.js",
+    "2d": "./2d.js"
+  }
+}
