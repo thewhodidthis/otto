@@ -42,11 +42,6 @@ const draw = () => {
         return
       }
 
-      // Do this once.
-      if (frameId === 4 && data[0]) {
-        items[i].classList.add("black")
-      }
-
       if (frameId % 4 === 0) {
         data.forEach((v, j) => {
           const x = j % s
