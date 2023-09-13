@@ -52,7 +52,7 @@
         grid-template-rows: 1fr 1fr;
       }
       span {
-        background: yellow;
+        background: orange;
         position: relative;
       }
       span::before {
@@ -68,6 +68,15 @@
       }
       span:nth-child(2n) canvas {
         background: black;
+      }
+      @media (prefers-color-scheme: dark) {
+        html {
+          background: #1e1e1e;
+          color: #efefef;
+        }
+        a {
+          color: inherit;
+        }
       }
     </style>
   </head>
