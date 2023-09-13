@@ -54,6 +54,7 @@
       span {
         background: orange;
         position: relative;
+        overflow: hidden;
       }
       span::before {
         color: white;
@@ -66,8 +67,11 @@
         top: 50%;
         transform: translate(-50%, -50%);
       }
-      span:nth-child(2n) canvas {
+      span:nth-child(2n) {
         background: black;
+      }
+      span:nth-child(2n) canvas {
+        transform: translate(0.5px, 0.5px);
       }
       @media (prefers-color-scheme: dark) {
         html {
